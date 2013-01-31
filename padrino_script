@@ -1,0 +1,15 @@
+#!/bin/bash
+#Server setup script with Padrino
+
+echo "I'll make you an offer you can't refuse -- easy Padrino installation"
+sleep 3
+
+sudo yum -y install git
+sudo yum -y install tree.x86_6
+sudo yum install -y gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison iconv-devel
+\curl -L https://get.rvm.io | bash -s stable --ruby
+source /home/ec2-user/.rvm/scripts/rvm:w
+gem install bundler
+gem install padrino
+
+echo "Installation done! Grazie, Godfather. Prego"
