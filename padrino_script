@@ -13,5 +13,14 @@ source ~/.bashrc
 gem install bundler
 gem install padrino
 
+echo "Installing Redis..."
+cd ~
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+PATH=$PATH:`pwd`/src
+export PATH
+
 source ~/.bash_profile
 echo "Installation done! Grazie, Godfather. Prego"
