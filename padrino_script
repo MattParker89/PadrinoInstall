@@ -13,4 +13,5 @@ source ~/.bashrc
 gem install bundler
 gem install padrino
 
+source ~/.bash_profile
 echo "Installation done! Grazie, Godfather. Prego"
