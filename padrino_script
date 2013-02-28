@@ -6,7 +6,7 @@ sleep 3
 
 sudo yum -y install git
 sudo yum -y install tree.x86_64
-sudo yum install -y gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison iconv-devel
+sudo yum install -y nginx gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison iconv-devel
 \curl -L https://get.rvm.io | bash -s stable --ruby
 source /home/ec2-user/.rvm/scripts/rvm:w
 source ~/.bashrc
